@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="flightaggregatorv01.AviationCompanyController">
+   <children>
+      <Button layoutX="247.0" layoutY="188.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Create Offer" />
+      <Button layoutX="247.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Creat New Flight" />
+      <Button layoutX="247.0" layoutY="227.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="View Flight List" />
+      <Button layoutX="247.0" layoutY="147.0" mnemonicParsing="false" text="Edit Flight Information" />
+      <Button layoutX="247.0" layoutY="269.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Auxalary Support" />
+      <Label layoutX="104.0" layoutY="31.0" text="Aviation Company Name">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

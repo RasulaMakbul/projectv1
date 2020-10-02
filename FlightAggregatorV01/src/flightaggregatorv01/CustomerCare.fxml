@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="481.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="flightaggregatorv01.CustomerCareController">
+   <children>
+      <TextArea layoutX="368.0" layoutY="168.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField layoutX="177.0" layoutY="82.0" promptText="Enter Pasanger ID" />
+      <TextField layoutX="177.0" layoutY="168.0" promptText="Enter Flight ID" />
+      <TextField layoutX="177.0" layoutY="268.0" prefHeight="25.0" prefWidth="167.0" promptText="Enter Aviation Company ID" />
+      <Button layoutX="57.0" layoutY="82.0" mnemonicParsing="false" text="passenger Search" />
+      <Button layoutX="81.0" layoutY="168.0" mnemonicParsing="false" text="Flight Search" />
+      <Button layoutX="14.0" layoutY="268.0" mnemonicParsing="false" text="Aviation Company Search" />
+   </children>
+</AnchorPane>
