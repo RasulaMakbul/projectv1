@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.gluonhq.charm.glisten.control.ToggleButtonGroup?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flightaggregatorv01.CreatingNewFlightController">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="flightaggregatorv01.CreatingNewFlightController">
+   <children>
+      <Label layoutX="174.0" layoutY="43.0" text="Create New Flight">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <TextField layoutX="72.0" layoutY="112.0" promptText="Flight Name" />
+      <TextField layoutX="72.0" layoutY="164.0" promptText="From" />
+      <TextField layoutX="72.0" layoutY="200.0" promptText="To" />
+      <DatePicker layoutX="73.0" layoutY="242.0" promptText="Select Date" />
+      <ToggleButtonGroup layoutX="107.0" layoutY="287.0" selectionType="SINGLE" />
+      <Button layoutX="73.0" layoutY="305.0" mnemonicParsing="false" text="Create" />
+   </children>
 </AnchorPane>
